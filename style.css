@@ -1,0 +1,192 @@
+/* htmlrefrence.io, cssrefrence.io */
+html, body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.05)), url('./images/wp10615928.jpg');
+    height: 100vh;
+}
+
+nav img.tabs{
+    width: 167px;
+    height: 45px;
+    margin-top: 30px;
+    top: 30%;
+    vertical-align: middle;
+}
+
+nav a .logo{
+    display: block;
+    line-height: 90px;
+}
+
+header nav{
+    height: 90px;
+    margin-left: 3%;
+}
+
+nav .signin{
+    color: white;
+    float: right;
+    /* font-family: 'Bebas Neue'; */
+    background-color: red;
+    line-height: normal;
+    margin-top: 18px;
+    margin-right: 3%;
+    padding: 7px 17px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.email{
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 50%;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.2);
+    border: rgba(255, 255, 255, 0.218);
+    border-style: solid;
+    color: white;
+    padding: 1.5rem 0.5rem 0.5rem;
+}
+
+.email::placeholder{
+    font-size: 1.5em;
+}
+
+.pitch{
+    margin: 0 25%;
+    position: absolute;
+    top: 35%;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+.pitch_title{
+    font-size: 2em;
+    margin: 0 0 0 0.2em;
+    font-weight: 600;
+}
+
+.pitch_subtitle{
+    font-size: 1em;
+    margin: 0 0 .5em;
+}
+
+.btn{
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    font-weight: 400;
+    margin: .5em .5em .5em 0;
+    padding: 12px 2em;
+    line-height: 1.5rem;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    text-align: center;
+    border: 0;
+    border-radius: 5%;
+}
+
+.btn-large{
+    padding: 18px 20px;
+}
+
+nav .signin:hover, .btn:hover{
+    background-color: rgb(177, 70, 70);
+}
+
+#features > nav{
+    padding-top: 35px;
+    background-color: #141414;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+#features > nav a{
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777;
+    height: 125px;
+    line-height: 20px;
+}
+
+#features > nav a:hover{
+    color: white;
+}
+
+#features > nav a img{
+    height: 49px;
+}
+
+#features > nav a h2{
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+.columns{
+    display: flex;
+}
+
+.column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.size-80{
+    width: 80%;
+}
+
+.size-70{
+    width: 70%;
+}
+
+#features > nav a.is-selected{
+    border-bottom: 5px solid #e50914;
+    color: white;
+}
+
+#features > nav > article {
+    margin-bottom: 120px;
+}
+
+#features > nav > article > section{
+    display: none;
+    padding: 40px 0;
+}
+
+#features > nav > article > section.is-selected{
+    display: block;
+}
+
+#features > nav > article h2{
+    font-size: 28px;
+    font-weight: 300;
+    margin: 60px 0 20px;
+}
+
+#fatures .cancel{
+    max-width: 100%;
+}

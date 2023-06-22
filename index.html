@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="icon" href="./images/netflix_icon_161073.png">
+    <title>NETFLIX</title>
+</head>
+
+<body>
+    <div class="head">
+        <header>
+            <nav>
+                <a class="logo" href="#">
+                    <img class="tabs" src="./images/Netflix_2015_logo.svg" alt="Not Supported">
+                </a>
+                <a class="signin" href="https://www.netflix.com/in/login">Sign In</a>
+            </nav>
+            <!-- <h1>See what's next.</h1> -->
+            <section class="pitch">
+                <h1 class="pitch_title">Unlimited movies, TV shows and more</h1>
+                <p class="pitch_subtitle">WATCH ANYWHERE. CANCEL ANYTIME</p>
+                <input autocomplete="off" class="email" type="email" placeholder="Email address">
+                <button class="btn">Join now</button>
+            </section>
+        </header>
+    </div>
+
+    <div id="features">
+        <nav>
+            <div class="center columns size-80">
+                <a href="#" class="column is-selected" data-id="cancelanytime">
+                    <img class="tabs" src="./images/cancel-close-exit-out-svgrepo-com.svg" alt="Cancel anytime">
+                    <h2>
+                        No Commitments
+                        <br />
+                        Cancel online anytime
+                    </h2>
+                </a>
+
+                <a href="#" class="column" data-id="watchanywhere">
+                    <img class="tabs" src="./images/phone-tablet-and-laptop-svgrepo-com.svg" alt="Watch anywhere">
+                    <h2>
+                        Watch Anywhere
+                    </h2>
+                </a>
+
+                <a href="#" class="column" data-id="pickprice">
+                    <img class="tabs" src="./images/pricetag2-svgrepo-com.svg" alt="pick price">
+                    <h2>
+                        Pick Your Price
+                    </h2>
+                </a>
+            </div>
+            <article>
+                <section class="is-selected size-70" data-id="cancelanytime">
+                    <div class="columns">
+                        <div class="column">
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab ipsam
+                                inventore beatae?
+                            </h2>
+                            <button class="btn btn-large">Join Now For Free</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img class="cancel" src="./images/en.png" alt="Cancel Anytime">
+                    </div>
+                </section>
+                <section data-id="watchanywhere">
+                    About Feature 2
+                </section>
+                <section data-id="pickprice">
+                    About Feature 3
+                </section>
+            </article>
+        </nav>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
